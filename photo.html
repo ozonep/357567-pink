@@ -4,9 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Pink</title>
 </head>
 <body>
-
+<header class="page-header">
+  <h1 class="heading-hidden">Супер приложение, пожднимающее настроение!</h1>
+  <a class="page-header__logo-link"><img src="./img/logotype-white-mobile.svg" alt="PINK" width="75" height="22"></a>
+  <nav class="main-nav">
+    <span class="main-nav__toggler"><span></span></span> <!--вот тут я просто повторил, как у Громова, без понятия зачем)))-->
+    <div class="main-nav__container">
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="#">Главная</a></li>
+        <li class="main-nav__item"><a href="#">Фотографии</a></li>
+        <li class="main-nav__item"><a href="#">Конкурс</a></li>
+        <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+<section class="promo promo--photo">
+  <p class="promo__text">Фотографии пользователей</p>
+</section>
+<section class="photos">
+  <p class="intro-promo-text">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+  <article class="photo-block">
+    <img class="photo-block__photo" src="" alt="">
+    <div class="photo-block__author"><b>Анна</b>(5 минут назад)</div>
+    <p>Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+    <span>Нравится: 215</span>
+  </article>
+  <article class="photo-block">
+    <img class="photo-block__photo" src="" alt="">
+    <div class="photo-block__author"><b>Левон</b>(5 часов назад)</div>
+    <p class="photo-block__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+    <span class="photo-block__likes">Нравится: 356</span>
+  </article>
+  <article class="photo-block">
+    <img class="photo-block__photo" src="" alt="">
+    <div class="photo-block__author"><b>Антон</b>(12 часов назад)</div>
+    <p class="photo-block__comment">Соседи будут рады!</p>
+    <span class="photo-block__likes">Нравится: 666</span>
+  </article>
+  <article class="photo-block">
+    <img class="photo-block__photo" src="" alt="">
+    <div class="photo-block__author"><b>Борис</b>(20 часов назад)</div>
+    <p class="photo-block__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+    <span class="photo-block__likes">Нравится: 215</span>
+  </article>
+  <article class="photo-block">
+    <img class="photo-block__photo" src="" alt="">
+    <div class="photo-block__author"><b>Сергей</b>(25 часов назад)</div>
+    <p class="photo-block__comment">Самая кубанская в мире!</p>
+    <span class="photo-block__likes">Нравится: 4</span>
+  </article>
+  <article class="photo-block">
+    <img class="photo-block__photo" src="" alt="">
+    <div class="photo-block__author"><b>Максим</b>(40 часов назад)</div>
+    <p class="photo-block__comment">Где снег-то?</p>
+    <span class="photo-block__likes">Нравится: 150</span>
+  </article>
+  <article class="photo-block">
+    <img class="photo-block__photo" src="" alt="">
+    <div class="photo-block__author"><b>Надежда</b>(45 часов назад)</div>
+    <p class="photo-block__comment">Всем GM и взаимные лайки!</p>
+    <span class="photo-block__likes">Нравится: 2560</span>
+  </article>
+  <p class="intro-promo-text">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
+</section>
+<section class="photo-editor">
+  <form action="" class="send-photo" method="POST">
+    <img src="" alt="">
+    <div class="photo-editor__settings">
+      <a href="#" class="photo-editor__edit photo-editor__edit--crop"></a>
+      <a href="#" class="photo-editor__edit photo-editor__edit--fullness"></a>
+      <a href="#" class="photo-editor__edit photo-editor__edit--brightness"></a>
+    </div>
+    <input type="submit" value="Запостить">
+    <a href="" class="cancel-button">Отмена</a>
+  </form>
+</section>
+</main>
+<footer class="page-footer">
+  <a href="#" class="contest-footer__logo"><img src="" alt=""></a>
+  <div class="social-links">
+    <a href="#" class="social-link social-link--twitter"></a>
+    <a href="#" class="social-link social-link--facebook"></a>
+    <a href="#" class="social-link social-link--youtube"></a>
+  </div>
+  <div class="made-by">
+    <span>Разработано</span>
+    <img src="#" alt="HTML Academy">
+  </div>
+</footer>
 </body>
 </html>

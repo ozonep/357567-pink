@@ -4,9 +4,117 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Pink</title>
 </head>
 <body>
-
+<header class="page-header">
+  <h1 class="heading-hidden">Супер приложение, пожднимающее настроение!</h1>
+  <a class="page-header__logo-link"><img src="./img/logotype-white-mobile.svg" alt="PINK" width="75" height="22"></a>
+  <nav class="main-nav">
+    <span class="main-nav__toggler"><span></span></span> <!--вот тут я просто повторил, как у Громова, без понятия зачем)))-->
+    <div class="main-nav__container">
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="#">Главная</a></li>
+        <li class="main-nav__item"><a href="#">Фотографии</a></li>
+        <li class="main-nav__item"><a href="#">Конкурс</a></li>
+        <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="promo promo--contest">
+    <p class="promo__text">Конкурс на самое безбашенное путешествие с Пинк</p>
+  </section>
+  <section class="contest">
+   <form class="contest-form" action="http://good.com" method="POST">
+    <fieldset class="contest-form__name-fields">
+      <p class="intro-promo-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
+      <label class="contest-form__name-label">
+        Фамилия
+        <input class="contest-form__name-input" type="text" placeholder="Укажите фамилию *">
+      </label>
+      <labe<label class="contest-form__name-label">l>
+        Имя
+        <input class="contest-form__name-input" type="text" placeholder="Укажите имя *">
+      </label>
+      <label class="contest-form__name-label">
+        Отчетсво
+        <input class="contest-form__name-input" type="text" placeholder="Ну и отчество тоже">
+      </label>
+    </fieldset>
+    <fieldset class="contest-form__achievments-list">
+      <span class="contest-form__achievment-text">Ваши безбашенные достижения в путешествии</span>
+      <label class="contest-form__achievment-label">
+        <input class="contest-form__achievment-checkbox" type="checkbox">
+        Сделал селфи с акулой
+      </label>
+      <label class="contest-form__achievment-label">
+        <input class="contest-form__achievment-checkbox" type="checkbox">
+        Обгорел на пляже
+      </label>
+      <label class="contest-form__achievment-label">
+        <input class="contest-form__achievment-checkbox" type="checkbox">
+        Видел Чака Норриса
+        </label>
+      <label class="contest-form__achievment-label">
+        <input class="contest-form__achievment-checkbox" type="checkbox">
+        Накупил сувениров
+      </label>
+      <label class="contest-form__achievment-label">
+        <input class="contest-form__achievment-checkbox" type="checkbox">
+        Удержал башню
+      </label>
+      <label class="contest-form__achievment-label">
+        <input class="contest-form__achievment-checkbox" type="checkbox">
+        Разгромил отель
+      </label>
+    </fieldset>
+    <fieldset class="contest-form__contacts">
+      <label class="contest-form__contact-label">
+        Номер телефона
+        <input class="contest-form__contact-input" type="text">
+      </label>
+      <label class="contest-form__contact-label">
+        Адрес почты
+        <input class="contest-form__contact-input" type="email">
+      </label>
+    </fieldset>
+    <fieldset class="contest-form__app-choice">
+      <span class="contest-form__app-text">C каким приложением путешествовали?</span>
+      <label class="contest-form__app-label">
+        <input type="radio">
+        Pink для iOS
+      </label>
+      <label class="contest-form__app-label">
+        <input type="radio">
+        Pink на Android
+      </label>
+      <label class="contest-form__app-label">
+        <input type="radio">
+        Windows Phone
+      </label>
+    </fieldset>
+    <fieldset class="contest-form__emotions">
+      <span class="contest-form__emotion-text">Опишите свои эмоции</span>
+      <textarea class="contest-form__emotion-filed" name="" id="" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+    </fieldset>
+    <input class="contest-button" type="submit" value="ОТПРАВИТЬ ФОРМУ">
+    <span class="contest-button__warning">* - обязательные поля</span>
+   </form>
+  </section>
+  </main>
+  <footer class="page-footer">
+    <a href="#" class="contest-footer__logo"><img src="" alt=""></a>
+    <div class="social-links">
+      <a href="#" class="social-link social-link--twitter"></a>
+      <a href="#" class="social-link social-link--facebook"></a>
+      <a href="#" class="social-link social-link--youtube"></a>
+    </div>
+    <div class="made-by">
+      <span>Разработано</span>
+      <img src="#" alt="HTML Academy">
+    </div>
+  </footer>
 </body>
 </html>
