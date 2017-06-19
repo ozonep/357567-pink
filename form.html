@@ -8,33 +8,40 @@
 </head>
 <body>
 <header class="page-header">
-  <h1 class="heading-hidden">Супер приложение, пожднимающее настроение!</h1>
-  <a class="page-header__logo-link"><img src="./img/logotype-white-mobile.svg" alt="PINK" width="75" height="22"></a>
-  <nav class="main-nav">
-    <span class="main-nav__toggler"><span></span></span> <!--вот тут я просто повторил, как у Громова, без понятия зачем)))-->
-    <div class="main-nav__container">
-      <ul class="main-nav__list">
-        <li class="main-nav__item"><a href="#">Главная</a></li>
-        <li class="main-nav__item"><a href="#">Фотографии</a></li>
-        <li class="main-nav__item"><a href="#">Конкурс</a></li>
-        <li class="main-nav__item"><a href="#">HTML Academy</a></li>
-      </ul>
+  <div class="page-header__upper-part">
+    <div class="page-header__container">
+      <a class="page-header__logo-link"><img src="./img/logotype-white-mobile.svg" alt="PINK" width="75" height="22"></a>
+      <nav class="main-nav">
+        <span class="main-nav__toggler"><span></span></span> <!--вот тут я просто повторил, как у Громова, без понятия зачем)))-->
+        <div class="main-nav__container">
+          <ul class="main-nav__list">
+            <li class="main-nav__item"><a href="#">Главная</a></li>
+            <li class="main-nav__item"><a href="#">Фотографии</a></li>
+            <li class="main-nav__item"><a href="#">Конкурс</a></li>
+            <li class="main-nav__item"><a href="#">HTML Academy</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
-  <div class="promo promo--contest">
-    <p class="promo__text">Конкурс на самое безбашенное путешествие с Пинк</p>
+  </div>
+  <div class="page-header__lower-part">
+     <div class="page-header__lower-container--form">
+      <div class="promo promo--contest">
+        <h1 class="promo__text">Конкурс на самое безбашенное путешествие с Пинк</h1>
+      </div>
+    </div>
   </div>
 </header>
 <main>
   <section class="contest">
+   <p class="intro-promo-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
    <form class="contest-form" action="http://good.com" method="POST">
     <fieldset class="contest-form__name-fields">
-      <p class="intro-promo-text">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту!</p>
       <label class="contest-form__name-label">
         Фамилия
         <input class="contest-form__name-input" type="text" placeholder="Укажите фамилию *">
       </label>
-      <labe<label class="contest-form__name-label">l>
+      <labe<label class="contest-form__name-label">
         Имя
         <input class="contest-form__name-input" type="text" placeholder="Укажите имя *">
       </label>
